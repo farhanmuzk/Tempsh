@@ -3,7 +3,6 @@ import React from 'react';
 const SectionWebsite: React.FC = () => {
     return (
         <div className="flex justify-center items-center h-screen">
-            {/* Browser Wrapper */}
             <div className="w-full max-w-7xl bg-white shadow-2xl border-4 border-black rounded-lg overflow-hidden">
                 {/* Browser Header (Tab bar) */}
                 <div className="flex items-center space-x-2 bg-gray-900 p-4">
@@ -13,7 +12,6 @@ const SectionWebsite: React.FC = () => {
                     <div className="flex-1 text-white text-center font-semibold">My Web App</div>
                 </div>
 
-                {/* Main Content Wrapper */}
                 <div className="w-full">
                     <iframe
                         className="w-full h-[calc(100vh-64px)]" // Kalkulasi tinggi berdasarkan viewport dan tinggi header
